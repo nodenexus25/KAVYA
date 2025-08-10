@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Register with RUFAAD Cloud Tech to access expert cloud support services." />
+  <title>Register | KAVYA International Pvt Ltd</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex flex-col min-h-screen bg-blue-50 text-gray-900">
+
+<!-- HEADER -->
+<header class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="flex items-center justify-between h-16 relative">
+      <a href="index.html" class="inline-flex items-center gap-3">
+        <img src="images\a9.png" alt="RUFAAD Cloud Tech logo" class="h-8 w-8 object-contain" />
+        <span class="font-semibold text-lg">KAVYA International Pvt Ltd</span>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="hidden md:flex gap-8 items-center text-sm font-medium absolute left-1/2 -translate-x-1/2">
+        <a href="index.html" class="hover:text-blue-600 transition">Home</a>
+        <a href="services.html" class="hover:text-blue-600 transition">Services</a>
+        <a href="register.html" class="hover:text-blue-600 transition">Register</a>
+        <a href="quote.html" class="hover:text-blue-600 transition">Quote</a>
+      </nav>
+
+      <!-- Desktop Actions -->
+      <div class="hidden md:flex items-center gap-4">
+        <a href="register.html" class="px-4 py-2 rounded-md bg-blue-600 text-white text-sm shadow-sm hover:bg-blue-700 transition">
+          Get Started
+        </a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button id="btn-mobile" class="md:hidden p-2 rounded-md focus:ring-2 focus:ring-blue-300" aria-expanded="false" aria-controls="mobile-menu">
+        <span class="sr-only">Toggle menu</span>
+        <svg id="icon-open" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+        <svg id="icon-close" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+        </svg>
+      </button>
+
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="hidden md:hidden absolute top-16 left-0 right-0 bg-white border-t shadow-lg z-40">
+        <ul class="p-4 space-y-3">
+          <li><a href="index.html" class="block text-gray-700 hover:text-blue-500 py-2">Home</a></li>
+          <li><a href="services.html" class="block text-gray-700 hover:text-blue-500 py-2">Services</a></li>
+          <li><a href="register.html" class="block text-gray-700 hover:text-blue-500 py-2">Register</a></li>
+          <li><a href="quote.html" class="block text-gray-700 hover:text-blue-500 py-2">Quote</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- Page Banner -->
+ <section class="bg-gradient-to-r from-blue-800 via-blue-400 to-blue-800 text-center py-10">
+    <h2 class="text-white text-5xl font-extrabold drop-shadow-lg">Register</h2>
+  </section>
+
+  <!-- Intro Section -->
+  <section class="bg-blue-100 text-center py-10 px-6">
+    <h3 class="text-3xl font-extrabold mb-4">Join Our Network</h3>
+    <p class="max-w-xl mx-auto text-lg mb-6">
+      Register now to access expert cloud support services tailored for your needs.
+      Get started on your cloud journey today!
+    </p>
+    <a href="#form" class="inline-block bg-white border border-gray-300 rounded-md shadow-md px-6 py-3 font-bold hover:shadow-lg transition">
+      Register
+    </a>
+  </section>
+
+  <!-- Registration Form -->
+  <section id="form" class="bg-blue-100 py-12 px-6">
+    <div class="max-w-2xl mx-auto">
+      <h3 class="text-3xl font-extrabold mb-8 text-center">Register for Support</h3>
+      <form class="space-y-6">
+        <!-- Name -->
+        <div>
+          <label for="name" class="block font-semibold mb-1">Name</label>
+          <input id="name" type="text" placeholder="What's your name?" class="w-full border rounded-lg px-4 py-3 focus:ring-2 focus:ring-blue-400 outline-none" required />
+        </div>
+
+        <!-- Email -->
+        <div>
+          <label for="email" class="block font-semibold mb-1">Email</label>
+          <input id="email" type="email" placeholder="What's your email?" class="w-full border rounded-lg px-4 py-3 focus:ring-2 focus:ring-blue-400 outline-none" required />
+        </div>
+
+        <!-- Message -->
+        <div>
+          <label for="message" class="block font-semibold mb-1">Message</label>
+          <textarea id="message" rows="4" placeholder="Write your message..." class="w-full border rounded-lg px-4 py-3 focus:ring-2 focus:ring-blue-400 outline-none"></textarea>
+        </div>
+
+        <!-- Privacy Consent -->
+        <div class="flex items-start space-x-2">
+          <input type="checkbox" id="consent" required class="mt-1" />
+          <label for="consent" class="text-sm">
+            I consent to use of provided personal data for the purpose of responding to the request as described in
+            <a href="privacy.html" class="underline hover:text-blue-600">Privacy Policy</a>,
+            which I have read. I may withdraw my consent at any time.
+          </label>
+        </div>
+
+        <!-- Submit -->
+        <button type="submit" class="w-full bg-white border border-gray-300 rounded-md shadow-md px-6 py-3 font-bold hover:shadow-lg transition">
+          Send Message
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-[#0f2b66] text-white mt-12">
+    <div class="max-w-7xl mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div>
+        <h4 class="font-semibold text-lg mb-3">KAVYA International Pvt Ltd</h4>
+        <p class="text-sm text-slate-200 max-w-sm">Cloud infrastructure, migration, support and multi-cloud solutions with project-based pricing.</p>
+      </div>
+
+      <div>
+        <h5 class="font-semibold mb-3">Menu</h5>
+        <ul class="space-y-2 text-sm">
+          <li><a class="hover:underline" href="index.html">Home</a></li>
+          <li><a class="hover:underline" href="services.html">Services</a></li>
+          <li><a class="hover:underline" href="register.html">Register</a></li>
+          <li><a class="hover:underline" href="quote.html">Quote</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h5 class="font-semibold mb-3">Contact</h5>
+        <p class="text-sm">Email: <a class="underline" href="mailto:info@rufaad.com">sales2kavyaint.com</a></p>
+        <p class="text-sm">Phone: <a class="underline" href="tel:+18508058876">+91 98716 66548</a></p>
+        <div class="flex gap-3 mt-4 text-xl">
+          <a aria-label="Facebook" href="#" class="hover:opacity-90"><svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 5 3.66 9.13 8.44 9.88v-6.99H7.9v-2.9h2.54V9.8c0-2.5 1.49-3.88 3.77-3.88 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.44 2.9h-2.34V22C18.34 21.13 22 17 22 12z"/></svg></a>
+          <a aria-label="Twitter" href="#" class="hover:opacity-90"><svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor"><path d="M22 5.92c-.66.3-1.37.5-2.12.59.76-.45 1.34-1.17 1.62-2.03-.72.42-1.52.73-2.37.9A3.5 3.5 0 0016.15 4c-1.93 0-3.5 1.65-3.5 3.68 0 .29.03.57.1.84-2.91-.15-5.49-1.53-7.22-3.63a3.8 3.8 0 00-.47 1.86c0 1.28.8 2.41 2.01 3.07-.58-.02-1.12-.18-1.6-.44v.04c0 1.79 1.26 3.28 2.95 3.62-.49.14-.99.21-1.51.21-.37 0-.73-.03-1.08-.1.73 2.34 2.84 4.05 5.34 4.1A7.05 7.05 0 012 19.54a9.86 9.86 0 005.34 1.56c6.41 0 9.92-5.55 9.92-10.36v-.47c.68-.46 1.27-1.03 1.73-1.68-.63.28-1.3.47-1.99.56z"/></svg></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="border-t border-white/10 text-center py-4 text-sm text-slate-200">
+      © <span id="year"></span> KAVYA International Pvt Ltd. All rights reserved.
+    </div>
+  </footer>
+
+  <!-- FontAwesome for Icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <!-- Mobile Menu Script -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const btnMobile = document.getElementById('btn-mobile');
+      const iconOpen = document.getElementById('icon-open');
+      const iconClose = document.getElementById('icon-close');
+      const mobileMenu = document.getElementById('mobile-menu');
+
+      if (btnMobile && iconOpen && iconClose && mobileMenu) {
+        btnMobile.addEventListener('click', () => {
+          console.log('Mobile menu toggle clicked');
+          const open = mobileMenu.classList.toggle('hidden') === false;
+          btnMobile.setAttribute('aria-expanded', open ? 'true' : 'false');
+          iconOpen.classList.toggle('hidden');
+          iconClose.classList.toggle('hidden');
+        });
+      } else {
+        console.error('Mobile menu elements not found');
+      }
+    });
+  </script>
+</body>
+</html>
