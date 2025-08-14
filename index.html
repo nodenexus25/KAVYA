@@ -8,57 +8,51 @@
 
   <!-- SEO -->
   <title>KAVYA International Pvt Ltd — Cloud Support Experts</title>
-  <meta name="description" content="Kavya Cloud Tech: cloud infrastructure setup, migration, disaster recovery, multi-cloud support (AWS, Azure, GCP, OCI). Reliable project-based pricing and support." />
+  <meta name="description" content="RUFAAD Cloud Tech: cloud infrastructure setup, migration, disaster recovery, multi-cloud support (AWS, Azure, GCP, OCI). Reliable project-based pricing and support." />
   <meta name="keywords" content="cloud support, cloud migration, AWS, Azure, GCP, disaster recovery, cloud infrastructure" />
-  <meta name="author" content="KAVYA Cloud Tech" />
+  <meta name="author" content="RUFAAD Cloud Tech" />
 
-  <!-- Open Graph (better social sharing) -->
-  <meta property="og:title" content="KAVYA Cloud Tech — Cloud Support Experts" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="RUFAAD Cloud Tech — Cloud Support Experts" />
   <meta property="og:description" content="Cloud infrastructure setup, migration, disaster recovery and multi-cloud support across AWS, Azure, GCP, OCI." />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="images/hero-1200.jpg" />
   <meta property="og:url" content="https://your-domain.com" />
 
-  <!-- Twitter card -->
+  <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="KAVYA Cloud Tech" />
+  <meta name="twitter:title" content="RUFAAD Cloud Tech" />
   <meta name="twitter:description" content="Cloud infrastructure and managed cloud support services." />
   <meta name="twitter:image" content="images/hero-1200.jpg" />
 
   <!-- Favicons -->
-  <link rel="icon" href="images\a9.png" type="image/png" sizes="32x32" />
+  <link rel="icon" href="images/a9.png" type="image/png" sizes="32x32" />
 
-  <!-- Tailwind CSS CDN (production: replace with built Tailwind for performance) -->
+  <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
-
-  
+</head>
 <body class="antialiased text-gray-900 bg-white">
 
-<!-- HEADER -->
+<!-- HEADER (unchanged) -->
 <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b">
   <div class="max-w-7xl mx-auto px-6">
     <div class="flex items-center justify-between h-16 relative">
       <a href="index.html" class="inline-flex items-center gap-3">
-        <img src="images\a9.png" alt="KAVYA Cloud Tech logo" class="h-8 w-8 object-contain" />
+        <img src="images/a9.png" alt="RUFAAD Cloud Tech logo" class="h-8 w-8 object-contain" />
         <span class="font-semibold text-lg">KAVYA International Pvt Ltd</span>
       </a>
-      <!-- Desktop Nav -->
       <nav class="hidden md:flex gap-8 items-center text-sm font-medium absolute left-1/2 -translate-x-1/2">
         <a href="index.html" class="hover:text-blue-600 transition">Home</a>
         <a href="services.html" class="hover:text-blue-600 transition">Services</a>
         <a href="register.html" class="hover:text-blue-600 transition">Register</a>
-        <a href="quote.html" class="text-blue-600 font-semibold">Quote</a>
+        <a href="quote.html" class="hover:text-blue-600 font-semibold">Quote</a>
       </nav>
-      <!-- Desktop Actions -->
       <div class="hidden md:flex items-center gap-4">
         <a href="register.html" class="px-4 py-2 rounded-md bg-blue-600 text-white text-sm shadow-sm hover:bg-blue-700 transition">
           Get Started
         </a>
       </div>
-
-      <!-- Mobile Menu Button -->
       <button id="btn-mobile" class="md:hidden p-2 rounded-md focus:ring-2 focus:ring-blue-300" aria-expanded="false" aria-controls="mobile-menu">
-        <span class="sr-only">Toggle menu</span>
         <svg id="icon-open" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
             d="M4 6h16M4 12h16M4 18h16" />
@@ -68,8 +62,6 @@
             d="M6 18L18 6M6 6l12 12" />
         </svg>
       </button>
-
-      <!-- Mobile Menu -->
       <div id="mobile-menu" class="hidden md:hidden absolute top-16 left-0 right-0 bg-white border-t shadow-lg z-40">
         <ul class="p-4 space-y-3">
           <li><a href="index.html" class="block text-gray-700 hover:text-blue-500 py-2">Home</a></li>
@@ -82,102 +74,116 @@
   </div>
 </header>
 
-  <!-- HERO -->
-  <main id="home" class="overflow-hidden">
-    <section class="max-w-7xl mx-auto px-6 pt-10 pb-16 grid gap-8 lg:grid-cols-2 items-center">
-      <!-- left: copy -->
-      <div>
-        <h1 class="text-4xl md:text-5xl font-extrabold leading-tight tracking-tight mb-4">Cloud Support Experts</h1>
-        <p class="text-lg text-slate-700 mb-6 max-w-xl">
-          We provide hands-on cloud infrastructure setup, migration, disaster recovery planning and managed support across AWS, Azure, GCP, OCI and Alibaba Cloud — tailored to businesses and home users with competitive, project-based pricing.
-        </p>
-
-        <div class="flex flex-wrap gap-3">
-          <a href="register.html" class="inline-flex items-center gap-2 px-5 py-3 bg-blue-600 text-white rounded-md shadow hover:bg-blue-700 transition">Register</a>
-          <a href="quote.html" class="inline-flex items-center gap-2 px-5 py-3 border border-slate-200 rounded-md hover:bg-slate-50 transition">Request Quote</a>
-        </div>
+<!-- HERO -->
+<section class="relative bg-gradient-to-r from-blue-900 via-blue-700 to-blue-500 text-white">
+  <div class="max-w-7xl mx-auto px-6 py-16 grid lg:grid-cols-2 gap-10 items-center">
+    <div>
+      <h1 class="text-4xl md:text-5xl font-extrabold leading-tight mb-4">Your Cloud, Our Expertise</h1>
+      <p class="text-lg opacity-90 mb-6">From setup to security, we provide hands-on cloud solutions tailored for AWS, Azure, GCP, OCI & more. Future-proof your business with our expert team.</p>
+      <div class="flex gap-3">
+        <a href="register.html" class="px-6 py-3 bg-white text-blue-700 font-medium rounded-lg shadow hover:bg-gray-100 transition">Get Started</a>
+        <a href="quote.html" class="px-6 py-3 border border-white font-medium rounded-lg hover:bg-white hover:text-blue-700 transition">Request Quote</a>
       </div>
+    </div>
+    <div>
+      <img src="images/a8.png" alt="Cloud Solutions" class="rounded-xl shadow-2xl" />
+    </div>
+  </div>
+</section>
 
-      <!-- right: responsive hero image -->
-      <div class="rounded-xl overflow-hidden shadow-2xl">
-  <img
-    src="images/a8.png"
-    alt="3D cloud logo on dark background"
-    class="w-full h-auto max-h-96 object-cover block"
-    loading="eager"
-  />
-</div>
-
-    </section>
-
-    <!-- SERVICES -->
-    <section id="services" class="bg-[#15236a] text-white py-12">
-      <div class="max-w-7xl mx-auto px-6">
-        <h2 class="text-3xl md:text-4xl font-bold mb-8">Cloud Support Services</h2>
-
-        <div class="grid gap-8 md:grid-cols-3">
-          <article class="bg-white/5 p-6 rounded-xl shadow-inner hover:scale-[1.01] transition-transform">
-            <img src="images\ind1.webp" alt="Cloud infrastructure" class="w-full h-40 object-cover rounded-md mb-4" loading="lazy" />
-            <h3 class="font-semibold text-lg mb-2">Infrastructure Setup & Management</h3>
-            <p class="text-sm text-slate-100">Expert assistance for cloud infrastructure setup, management, and security at competitive project-based pricing.</p>
-          </article>
-
-          <article class="bg-white/5 p-6 rounded-xl shadow-inner hover:scale-[1.01] transition-transform">
-            <img src="images\ind2.avif" alt="Disaster recovery" class="w-full h-40 object-cover rounded-md mb-4" loading="lazy" />
-            <h3 class="font-semibold text-lg mb-2">Disaster Recovery & Migration</h3>
-            <p class="text-sm text-slate-100">Comprehensive disaster recovery plans tailored to your business needs for seamless cloud migration.</p>
-          </article>
-
-          <article class="bg-white/5 p-6 rounded-xl shadow-inner hover:scale-[1.01] transition-transform">
-            <img src="images\ind3.webp" alt="Multi-cloud support" class="w-full h-40 object-cover rounded-md mb-4" loading="lazy" />
-            <h3 class="font-semibold text-lg mb-2">Multi-Cloud Support</h3>
-            <p class="text-sm text-slate-100">Reliable support across AWS, GCP, Azure, OCI, and Alibaba Cloud for projects of any scale.</p>
-          </article>
-        </div>
+<!-- WHY CHOOSE US -->
+<section class="py-14 bg-gray-50">
+  <div class="max-w-7xl mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center mb-10">Why Choose Us?</h2>
+    <div class="grid md:grid-cols-3 gap-8 text-center">
+      <div class="p-6 bg-white rounded-lg shadow hover:shadow-lg transition">
+        <h3 class="font-semibold text-lg mb-2">Certified Experts</h3>
+        <p class="text-gray-600 text-sm">Our team holds top certifications across AWS, Azure, and GCP ensuring your cloud is in safe hands.</p>
       </div>
-    </section>
-
-    <!-- TESTIMONIALS (simple carousel) -->
-    <section class="max-w-7xl mx-auto px-6 py-12">
-      <h2 class="text-3xl font-bold mb-6">Client Feedback</h2>
-
-      <div class="relative">
-        <div id="testimonials" class="space-y-6">
-          <blockquote class="p-6 rounded-lg bg-slate-50 border-l-4 border-blue-600 text-slate-700">
-            <p class="text-lg italic">KAVYA International Cloud Tech transformed our cloud infrastructure with exceptional support and expertise.”</p>
-            <footer class="mt-3 text-sm text-slate-500">— NOI Technologies</footer>
-          </blockquote>
-
-          <blockquote class="p-6 rounded-lg bg-slate-50 border-l-4 border-blue-600 text-slate-700 hidden">
-            <p class="text-lg italic">“Their team provided reliable solutions for our migration, making the process seamless and efficient.”</p>
-            <footer class="mt-3 text-sm text-slate-500">— Vijay Batra</footer>
-          </blockquote>
-
-          <blockquote class="p-6 rounded-lg bg-slate-50 border-l-4 border-blue-600 text-slate-700 hidden">
-            <p class="text-lg italic">“Professional, fast, and affordable — highly recommended for small & mid businesses.”</p>
-            <footer class="mt-3 text-sm text-slate-500">— Alka Pundir</footer>
-          </blockquote>
-        </div>
-
-        <!-- controls -->
-        <div class="flex gap-3 mt-6 justify-center">
-          <button id="prevTest" class="w-3 h-3 rounded-full bg-slate-300" aria-label="Previous testimonial"></button>
-          <button id="nextTest" class="w-3 h-3 rounded-full bg-blue-600" aria-label="Next testimonial"></button>
-        </div>
+      <div class="p-6 bg-white rounded-lg shadow hover:shadow-lg transition">
+        <h3 class="font-semibold text-lg mb-2">End-to-End Solutions</h3>
+        <p class="text-gray-600 text-sm">We manage everything from planning to deployment and monitoring — all in one place.</p>
       </div>
-    </section>
-
-    <!-- CTA -->
-    <section class="bg-sky-50 py-12">
-      <div class="max-w-4xl mx-auto px-6 text-center">
-        <h3 class="text-3xl font-bold mb-3">Cloud Support Solutions</h3>
-        <p class="text-slate-700 mb-6">Affordable cloud infrastructure services for home users and businesses. Register now for tailored support and quick quotations.</p>
-        <a href="register.html" class="inline-block px-6 py-3 rounded-md bg-blue-600 text-white shadow hover:bg-blue-700 transition">Register Now</a>
+      <div class="p-6 bg-white rounded-lg shadow hover:shadow-lg transition">
+        <h3 class="font-semibold text-lg mb-2">Affordable Pricing</h3>
+        <p class="text-gray-600 text-sm">Transparent, project-based pricing without hidden costs, tailored to your needs.</p>
       </div>
-    </section>
-  </main>
+    </div>
+  </div>
+</section>
 
-  <!-- FOOTER -->
+<!-- SERVICES -->
+<section id="services" class="bg-[#15236a] text-white py-12">
+  <div class="max-w-7xl mx-auto px-6">
+    <h2 class="text-3xl md:text-4xl font-bold mb-8 text-center">Our Services</h2>
+    <div class="grid gap-8 md:grid-cols-3">
+      <article class="bg-white/10 p-6 rounded-xl shadow hover:scale-[1.02] transition">
+        <img src="images/ind1.webp" class="rounded-md mb-4 h-40 w-full object-cover" alt="Infrastructure" />
+        <h3 class="font-semibold text-lg mb-2">Infrastructure Setup</h3>
+        <ul class="text-sm text-slate-100 list-disc list-inside space-y-1">
+          <li>Secure cloud architecture</li>
+          <li>Performance optimization</li>
+          <li>Ongoing monitoring</li>
+        </ul>
+      </article>
+      <article class="bg-white/10 p-6 rounded-xl shadow hover:scale-[1.02] transition">
+        <img src="images/ind2.avif" class="rounded-md mb-4 h-40 w-full object-cover" alt="Disaster Recovery" />
+        <h3 class="font-semibold text-lg mb-2">Disaster Recovery</h3>
+        <ul class="text-sm text-slate-100 list-disc list-inside space-y-1">
+          <li>Data backup & restoration</li>
+          <li>Business continuity</li>
+          <li>Risk assessments</li>
+        </ul>
+      </article>
+      <article class="bg-white/10 p-6 rounded-xl shadow hover:scale-[1.02] transition">
+        <img src="images/ind3.webp" class="rounded-md mb-4 h-40 w-full object-cover" alt="Multi-Cloud" />
+        <h3 class="font-semibold text-lg mb-2">Multi-Cloud Support</h3>
+        <ul class="text-sm text-slate-100 list-disc list-inside space-y-1">
+          <li>Integration & migration</li>
+          <li>Cross-cloud management</li>
+          <li>24/7 support</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="max-w-7xl mx-auto px-6 py-12">
+  <h2 class="text-3xl font-bold mb-6 text-center">Client Feedback</h2>
+  <div class="relative max-w-3xl mx-auto">
+    <div id="testimonials" class="space-y-6">
+      <blockquote class="p-6 rounded-lg bg-slate-50 border-l-4 border-blue-600">
+        <p class="italic">“KAVYA International Cloud Tech transformed our cloud infrastructure with exceptional support and expertise.”</p>
+        <footer class="mt-3 text-sm text-slate-500">— NOI Technologies</footer>
+      </blockquote>
+      <blockquote class="p-6 rounded-lg bg-slate-50 border-l-4 border-blue-600 hidden">
+        <p class="italic">“Their team provided reliable solutions for our migration, making the process seamless and efficient.”</p>
+        <footer class="mt-3 text-sm text-slate-500">— Vijay Batra</footer>
+      </blockquote>
+      <blockquote class="p-6 rounded-lg bg-slate-50 border-l-4 border-blue-600 hidden">
+        <p class="italic">“Professional, fast, and affordable — highly recommended for small & mid businesses.”</p>
+        <footer class="mt-3 text-sm text-slate-500">— Alka Pundir</footer>
+      </blockquote>
+    </div>
+    <div class="flex gap-3 mt-6 justify-center">
+      <button id="prevTest" class="w-3 h-3 rounded-full bg-slate-300"></button>
+      <button id="nextTest" class="w-3 h-3 rounded-full bg-blue-600"></button>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="bg-gradient-to-r from-blue-600 to-blue-500 py-12 text-white text-center">
+  <div class="max-w-4xl mx-auto px-6">
+    <h3 class="text-3xl font-bold mb-3">Ready to Elevate Your Cloud?</h3>
+    <p class="mb-6 opacity-90">Affordable cloud infrastructure services for home users and businesses. Register now for tailored support and quick quotations.</p>
+    <a href="register.html" class="px-6 py-3 bg-white text-blue-700 font-medium rounded-lg shadow hover:bg-gray-100 transition">Register Now</a>
+  </div>
+</section>
+
+<!-- FOOTER (unchanged) -->
+<footer class="bg-[#0f2b66] text-white mt-12">
   <footer class="bg-[#0f2b66] text-white mt-12">
     <div class="max-w-7xl mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-3 gap-8">
       <div>
@@ -209,11 +215,11 @@
     <div class="border-t border-white/10 text-center py-4 text-sm text-slate-200">
       © <span id="year"></span> KAVYA International Pvt Ltd. All rights reserved.
     </div>
-  </footer>
+</footer>
 
-  <!-- Minimal JS: mobile menu, testimonials carousel, year -->
-  <script>
-    window.addEventListener('error', function (event) {
+<!-- JS (unchanged) -->
+<script>
+   window.addEventListener('error', function (event) {
       console.error('Global error caught:', event.error);
     });
 
@@ -290,6 +296,6 @@
         });
       });
     })();
-  </script>
+</script>
 </body>
 </html>
